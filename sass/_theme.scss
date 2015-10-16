@@ -1,0 +1,91 @@
+/* Colors */
+
+
+/* Mixins */
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+
+/* Global */
+.clear{
+	clear:both;
+}
+h1, h2, h3, h4, h5, h6{
+}
+body, p, ul, ol, li{
+}
+a{
+		&:visited{
+		}
+		&:hover{
+		}
+}
+
+/* Header */
+/* Nav */
+nav{
+	.nav-style{
+				ul.navbar-nav{
+					.open>a{
+					}
+			li{
+				.dropdown-menu{
+					li{
+						a{
+							&:hover{
+							}
+						}
+					}
+				}
+				a{	
+					&:hover{
+					}
+					&:active{
+					}
+				}
+				.dropdown-menu{
+					li{
+						a{
+							&:hover{
+							}
+						}
+					}
+				}
+			}
+		}
+		ul:after{
+		}
+		.dropdown-menu{
+		}
+	}
+	.icon-bar{
+		background: #000;
+	}
+	.navbar-toggle{
+	}
+}
+.dropdown:hover .dropdown-menu {
+	}
+
+/* Home Page */
+
+/* Blog */
+
+/* Services */
+
+/* Portfolio Main Page */
+
+/* Standard Pages */
+
+/* Footer */
+
+
+/* Media Queries */
+@media (max-width:768px){
+	
+}
